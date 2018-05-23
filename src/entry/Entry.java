@@ -17,7 +17,7 @@ public class Entry {
 	@Test
 	public void test() {
 		LocalJavaFileReader reader = new LocalJavaFileReader();
-		List<File> files = reader.getFilesList("E:/120@project/Pad");
+		List<File> files = reader.getFilesList("xxxx");
 		System.out.println("共有"+files.size()+"个java文件");
 		for (File file : files) {
 			reader.readFile(file);
